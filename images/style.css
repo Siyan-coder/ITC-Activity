@@ -1,0 +1,342 @@
+body {
+    position: relative;
+    background-image: url("page_background.jpg");
+    object-fit: fill;
+    width: 100px;
+}
+.btn {
+    position: relative;
+    height: 29px;
+    top: -14px;
+    left: 950px;
+    overflow: hidden;
+}
+.btnc {
+    position: relative;
+    margin-top: -29px;
+}
+.btnc:hover {
+    position: relative;
+    top: 29px;
+}
+.btns1 {
+    position: relative;
+    top: 42px;
+    left: 650px;
+    width: 96px;
+    height: 25px;
+    overflow: hidden;
+}
+.btns2 {
+    position: relative;
+    top: 17px;
+    left: 755px;
+    width: 86px;
+    height: 25px;
+    overflow: hidden;
+}
+.btns3 {
+    position: relative;
+    top: -8px;
+    left: 850px;
+    width: 93px;
+    height: 25px;
+    overflow: hidden;
+}
+.btns4 {
+    position: relative;
+    top: -33px;
+    left: 952px;
+    width: 90px;
+    height: 25px;
+    overflow: hidden;
+}
+.txtone {
+    position: relative;
+    pointer-events: none;
+    left: 680px;
+    top: -65px;
+    width: 40px;
+}
+.txttwo {
+    position: relative;
+    pointer-events: none;
+    left: 680px;
+    top: -65px;
+    width: 37px;
+}
+.txtthree {
+    position: relative;
+    pointer-events: none;
+    left: 680px;
+    top: -65px;
+    width: 56px;
+}
+.txtfour {
+    position: relative;
+    pointer-events: none;
+    left: 680px;
+    top: -65px;
+    width: 40px;
+}
+.txt1 {
+    position: relative;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    color: white;
+}
+.txt2 {
+    position: relative;
+    top: -30px;
+    left: 105px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow: hidden;
+}
+.txt3 {
+    position: relative;
+    top: -60px;
+    left: 200px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow: hidden;
+}
+.txt4 {
+    position: relative;
+    top: -90px;
+    left: 302px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow: hidden;   
+}
+.btn1 {
+    position: relative;
+    margin-top: -25px;
+    overflow: hidden;
+}
+.btn2 {
+    position: relative;
+    margin-top: -25px;
+    overflow: hidden;
+}
+.btn3 {
+    position: relative;
+    margin-top: -25px;
+    overflow: hidden;
+
+}
+.btn4 {
+    position: relative;
+    margin-top: -25px;
+    overflow: hidden;
+}
+.btn1:hover {
+    position: relative;
+    top: 25px;
+}
+.btn2:hover {
+    position: relative;
+    top: 25px;
+}
+.btn3:hover {
+    position: relative;
+    top: 25px;
+}
+.btn4:hover {
+    position: relative;
+    top: 25px;
+}
+.firstp {
+    position: relative;
+}
+.banner {
+    position: relative;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+}
+.secondp {
+    position: relative;
+    top: -167px;
+    left: 300px;
+    background-color: white;
+    height: 780px;
+    width: 770px;
+}
+.gearbanner {
+    position: relative;
+    text-align: center;
+}
+.fstp {
+    position: relative;
+    overflow: hidden;
+    left: 100px;
+    height: 90px;
+    width: 400px;
+}
+.para1 {
+    position: relative;
+    overflow: hidden;
+    left: 30px;
+}
+.greent {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: green;
+}
+.blackt {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.para2 {
+    position: relative;
+    overflow: hidden;
+    left: 30px;
+}
+.blackh {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.aside {
+    position: relative;
+    overflow: hidden;
+    left: 150px;
+    top: -250px;
+    width: 267px;
+}
+.oranget {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: orange;
+}
+.line {
+    position: relative;
+    overflow: hidden;
+    top: -20px;
+    width: 270px;
+}
+.standard {
+    position: relative;
+    overflow: hidden;
+    top: -15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    stroke-width: 3px;
+}
+.money {
+    position: relative;
+    overflow: hidden;
+    top: -12px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    stroke-width: 10px;
+}
+.websuits {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px
+}
+.lastpart {
+    position: relative;
+    overflow: hidden;
+    top: -865px;
+    left: 497px;
+}
+.bamboo {
+    position: relative;
+    overflow: hidden;
+    top: -30px;
+    width: 5px;
+    height: 710px;
+}
+.moveit {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: green;
+}
+.moveitdos {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: green;
+}
+.moveittres {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: green;
+}
+.topsellers {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    top: -720px;
+}
+.lastblack {
+    position: relative;
+    overflow: hidden;
+    top: -15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.flastblack {
+    position: relative;
+    overflow: hidden;
+    top: -5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.fearless {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    top: -720px;
+}
+.blue {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    top: -720px;
+}
+.ground {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    top: -720px;
+}
+.fboard {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+}
+.fgreent {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: green;
+}
+.link {
+    position: relative;
+    overflow: hidden;
+    top: -1600px;
+}
+.bttm {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
