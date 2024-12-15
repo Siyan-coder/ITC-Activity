@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="JavaScript">
+        var temp;
+        function showOne(){
+            var x = document.getElementById("display").value;
+            document.getElementById("display").value = x +"1";
+        }
+        function showTwo(){
+            var x = document.getElementById("display").value;
+            document.getElementById("display").value = x +"2";
+        }
+        function doPlus(){
+            temp = document.getElementById("display").value;
+            document.getElementById("display").value = "";
+        }
+        function doEquals(){
+            var x = eval(document.getElementById("display").value) + eval(temp);
+            document.getElementById("display").value = x;
+        }
+    </script>
+</head>
+<body>
+    <h2>Calculator</h2>
+            <input type="text" id="display" style="text-align: right;"> 
+            <input type="button" value="1" onclick="showOne()">
+            <input type="button" value="2" onclick="showTwo()">
+            <input type="button" value="+" onclick="doPlus()">
+            <input type="button" value="=" onclick="doEquals()">
+    
+</body>
+</html>

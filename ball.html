@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="JavaScript">
+        var imgLeft;
+        var winWidth;
+        var direction =1;
+        var speed =10;
+
+        function goRight() {
+            document.getElementById('ball').style.left = imgLeft + speed + "px";
+        }
+        function goLeft() {
+            document.getElementById('ball').style.left = imgLeft - speed + "px";
+        }
+
+        function controllBall() {
+            imgLeft = parseInt(document.getElementById('ball').style.left);
+            winWidth = parseInt(document.body.clientWidth);
+            if(direction == 1){
+                if(imgLeft < winWidth)
+                    goRight();
+                else
+                    direction = 0;
+            }
+            else {
+                if (imgLeft > 10)
+                    goLeft();
+                else
+                    direction = 1;
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <a href="javascrip:var t = setInterval('controllBall()',50)">Hit it!</a>
+    <img src="ball.jpeg" id="ball" style="position: absolute; left:10px; top:100px;">
+</body>
+</html>
